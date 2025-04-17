@@ -38,6 +38,9 @@ export default function FamilyTree() {
 
   return (
     <div style={containerStyles} ref={treeRef}>
+      <p style={{ textAlign: "center", fontSize: "16px", marginBottom: "10px" }}>
+        اضغط على الدوائر لاظهار الابناء او اخفائهم
+      </p>
       <Tree
         data={data}
         translate={translate}
